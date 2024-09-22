@@ -41,7 +41,7 @@ ul {
   color: #2e2f42;
 }
 .header .header-list:hover,
-.header .header-list:active {
+.header .header-list:focus {
   color: #404bbf;
 }
 
@@ -88,9 +88,7 @@ ul {
   cursor: pointer;
 }
 
-.banner .bunner-button:hover {
-  background-color: #404bbf;
-}
+.banner .bunner-button:hover,
 .banner .bunner-button:focus {
   background-color: #404bbf;
 }
@@ -105,7 +103,7 @@ ul {
   color: #2e2f42;
 }
 
-.efficiency-title .efficiency-list-title {
+.efficiency .efficiency-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
