@@ -56,7 +56,10 @@ ul {
   color: #434455;
 }
 
-.header-address .header-mail-tel:hover,
+.header-address .header-mail-tel:hover {
+  color: #404bbf;
+}
+
 .header-address .header-mail-tel:focus {
   color: #404bbf;
 }
@@ -68,7 +71,7 @@ ul {
 .banner .banner-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -88,16 +91,18 @@ ul {
 .banner .bunner-button:hover {
   background-color: #404bbf;
 }
+.banner .bunner-button:focus {
+  background-color: #404bbf;
+}
 
 /* СЕКЦІЯ ПІД БАНЕРОМ, БЛОКИ З ЕФЕКТИВНІСТЮ ТА ОПИСОМ */
 
 .efficiency .efficiency-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07143;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
+  color: #2e2f42;
 }
 
 .efficiency-title .efficiency-list-title {
@@ -124,10 +129,11 @@ ul {
 
 .team-info .team-info-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-info .team-info-backgraund-card {
@@ -154,10 +160,11 @@ ul {
 .portfolio .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio .portfolio-list-title {
